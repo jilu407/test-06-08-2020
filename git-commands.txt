@@ -1,0 +1,354 @@
+    1  git clone https://github.com/jilu407/test-shell.git
+    2  cd test-shell/
+    3  cd .git/
+    4  ls
+    5  vi config 
+    6  cat config 
+    7  ls
+    8  cd scripts/
+    9  cd ..
+   10  vi .git/config 
+   11  git remote add origin https://github.com/jilu407/test-shell.git
+   12  vi .git/config 
+   13  git user
+   14  git --help
+   15  ls
+   16  vi README.md 
+   17  git status
+   18  git add *
+   19  git commit -m "sss"
+   20   git config --global user.email "jilani.oracledba@gmail.com"
+   21   git config --global user.name "jilu407"
+   22  git commit -m "sss"
+   23  vi .git/config 
+   24  git log
+   25  git push -u origin master
+   26  git clone https://github.com/jilu407/11222333222.git
+   27  cd 11222333222/
+   28  cd .git/
+   29  cat config 
+   30  git clone https://github.com/epety/100-shell-script-examples.git
+   31  cd 100-shell-script-examples/
+   32  git log
+   33  cd .git/
+   34  vi config 
+   35  cd ..
+   36  git push -u origin master
+   37  git clone https://github.com/testformygration/1.git
+   38  cd 1
+   39  mkdir a b c
+   40  ls
+   41  ll
+   42  git add *
+   43  git commit -m "first commit"
+   44  git push -u origin master
+   45  git log
+   46  git status
+   47  clear
+   48  git add *
+   49  git commit -m "first commit"
+   50  git push -u origin master
+   51  cd ..
+   52  git clone https://github.com/testformygration/2.git
+   53  cd 2
+   54  mkdir d e f
+   55  git status
+   56  git add *
+   57  git commit -m "first commit"
+   58  git push -u origin master
+   59  git log 
+   60  clear
+   61  ls
+   62  git status
+   63  git status
+   64  git add *
+   65  git commit -m "second commit "
+   66  git push -u origin master
+   67  git log
+   68  clear
+   69  ls
+   70  git status
+   71  cd ..
+   72  cp 2/d/ 1/
+   73  cp -r 2/d/ 1/
+   74  cd
+   75  ls
+   76  ls
+   77  cd Desktop/
+   78  ls
+   79  date
+   80  dddd
+   81  ssh -i "jilani.pem" @ec2-3-83-107-82.compute-1.amazonaws.com
+   82  terraform init 
+   83  aws --configure
+   84  aws --version
+   85  cd Desktop/linux
+   86  ls
+   87  aws s3 cp *.txt s3://new-bucket8899/ --recursive
+   88  aws s3 cp day1.txt s3://new-bucket8899/ --recursive
+   89  cd ..
+   90  aws s3 cp linux s3://new-bucket8899/ --recursive
+   91  aws cloudwatch get-metric-data --metric-data-queries jsonfile.json \ --start-time 2019-02-01T10:40:0000 --end-time 2019-02-27T14:12:0000 
+   92  aws cloudwatch get-metric-data --metric-data-queries jsonfile.json    --start-time 2019-02-01T10:40:0000 --end-time 2019-02-27T14:12:0000 
+   93  aws cloudwatch get-metric-statistics --namespace AWS/EC2 --metric-name CPUUtilization --dimensions Name=InstanceId,Value=i-1234567890abcdef0 --statistics Maximum \
+   94  aws cloudwatch get-metric-statistics --namespace AWS/EC2 --metric-name CPUUtilization --dimensions Name=InstanceId,Value=i-0231a5a49590c298a --statistics Maximum --start-time 2016-10-18T23:18:00 --end-time 2016-10-19T23:18:00 --period 360
+   95  aws cloudwatch get-metric-statistics --namespace AWS/EC2 --metric-name CPUUtilization --dimensions Name=InstanceId,Value=i-0231a5a49590c298a --statistics Maximum --start-time 2016-10-18T23:18:00 --end-time 2019-03-18T23:18:00 --period 360
+   96  aws cloudwatch get-metric-statistics --namespace AWS/EC2 --metric-name CPUUtilization --dimensions Name=InstanceId,Value=i-0231a5a49590c298a --statistics Maximum --start-time 2019-03-17T00:00:00 --end-time 2019-03-18T00:00:00 --period 360
+   97  aws cloudwatch get-metric-statistics --namespace AWS/EC2 --metric-name CPUUtilization --dimensions Name=InstanceId,Value=i-0231a5a49590c298a --statistics Maximum --start-time 2019-03-17T00:00:00 
+   98  aws cloudwatch get-metric-statistics --namespace AWS/EC2 --metric-name CPUUtilization --dimensions Name=InstanceId,Value=i-0231a5a49590c298a --statistics Maximum --start-time 2019-03-17T00:00:00 --end-time 2019-03-18T00:00:00 --period 1
+   99  aws cloudwatch get-metric-statistics --namespace AWS/EC2 --metric-name CPUUtilization --dimensions Name=InstanceId,Value=i-0231a5a49590c298a --statistics Maximum --start-time 2019-03-16T00:00:00 --end-time 2019-03-17T23:00:00 --period 1
+  100  aws cloudwatch get-metric-statistics 
+  101  --metric-name CPUUtilization 
+  102  --start-time 2019-03-15T12:30:00 
+  103  --end-time 2019-03-17T21:30:00 
+  104  --period 900 
+  105  --statistics Average 
+  106  --namespace AWS/EC2
+  107  aws cloudwatch get-metric-statistics --metric-name CPUUtilization --start-time 2019-03-15T12:30:00 --end-time 2019-03-17T21:30:00 --period 900 --statistics Average --namespace AWS/EC2
+  108  ls
+  109  cd Desktop/
+  110  mkdie demo-elb
+  111  mkdir demo-elb
+  112  cd demo-elb/
+  113  eb init -p PHP
+  114  aws --version
+  115  eb --version
+  116  git clone https://github.com/jilu407/awslambda.git
+  117  git status
+  118  git fetch origin && git reset --hard origin/master && git clean -f -d
+  119  git status
+  120  git status
+  121  git status
+  122  git clone https://github.com/jilu407/awslambda.git
+  123  git status
+  124  git fetch origin && git reset --hard origin/master && git clean -f -d
+  125  ls
+  126  vi README.md 
+  127  git add *
+  128  git commit -m "second"
+  129  vi README.md 
+  130  git add *
+  131  git commit -m "third"
+  132  vi README.md 
+  133  git add *
+  134  git commit -m "four"
+  135  git log
+  136  git log --graph --all --online --decorate
+  137  git log --graph --all --oneline --decorate
+  138  git rebase -i 14aefcb
+  139  git rebase -i 14aefcb^
+  140  vi README.md 
+  141  git rebase --abort
+  142  vi second.txt
+  143  git add 8
+  144  git add *
+  145  git commit -m "second-file"
+  146  vi second.txt 
+  147  git add *
+  148  git commit -m "second-file1"
+  149  vi README.md 
+  150  git add *
+  151  git commit -m "five"
+  152  vi README.md 
+  153  git add *
+  154  git commit -m "six"
+  155  vi second.txt 
+  156  git add *
+  157  git commit -m "second-file3"
+  158  git log --graph --all --oneline --decorate
+  159  git rebase -i 96f8938
+  160  git rebase -i 96f8938^
+  161  git status
+  162  vi second.txt 
+  163  vi second.txt 
+  164  git add *
+  165  git rebase --continue
+  166  git log --graph --all --oneline --decorate
+  167  vi first.sh
+  168  ./first.sh 
+  169  .first.sh 
+  170  git clone https://github.com/PatelMitdev/tekSystem-test.git
+  171  cd tekSystem-test/
+  172  ls
+  173  git user.name
+  174  git config --global user.name
+  175  git config --global user.name "PatelMitdev"
+  176  git config user.name
+  177  git config user.email
+  178  git config --global user.email "MitPatel.Ui.developer@gmail.com"
+  179  git config user.email
+  180  git status
+  181  git add *
+  182  git commit -m "first commit"
+  183  git push -u origin master
+  184  git config user.name
+  185  git log
+  186  git push -u origin master
+  187  git push -f
+  188  git push -u origin master
+  189  git clone https://github.com/PatelMitdev/tekSystem.git
+  190  cd tekSystem
+  191  git status
+  192  git add *
+  193  git status
+  194  git commit -m "first commit"
+  195  git push -u origin master
+  196  python if.py 
+  197  python if-1.py 
+  198  python if-1.py 
+  199  python if-1.py 
+  200  python if-1.py 
+  201  git rm --cached testfile.txt 
+  202  ls
+  203  git log
+  204  git log
+  205  git add *
+  206  git commit -m "third commit"
+  207  ls
+  208  git log
+  209  ls
+  210  git add *
+  211  git commit -m "four commit"
+  212  git log
+  213  git log HEAD
+  214  git clone https://github.com/jilu407/test-shell.git
+  215  git log HEAD
+  216  git log oneline
+  217  git log --oneline
+  218  git log --all --decorate
+  219  git rev-list HEAD
+  220  git reflog
+  221   git reset --soft HEAD~1
+  222  git reflog
+  223  ls
+  224   git reset HEAD second.txt
+  225  g
+  226  git status
+  227  git reflog
+  228  git rm --cached second.txt 
+  229  git status
+  230  cat second.txt 
+  231  git commit --amend "kjlhll"
+  232  git commit --amend 
+  233  git add *
+  234  git commit --amend 
+  235  git reflog
+  236  cat second.txt 
+  237  git show 4831fdc
+  238  git stastus
+  239  git status
+  240  git add *
+  241  git commit -m "test for two files2
+  242  "
+  243  git log
+  244  git reflog
+  245   git reset --soft HEAD~1
+  246  git reflog
+  247  git status
+  248  git reset HEAD second.txt
+  249  git rm --cached second.txt 
+  250  git status
+  251  git commit -m "revert second file"
+  252  git log
+  253  git show  555ce8c864f61fcdbc9fd0e08cf36271c6efbfbb
+  254  git push -u origin master
+  255  git config --global user.name "jilu407"
+  256  git config --global user.email "jilani.oracledba@gmail.com"
+  257  git push -u origin master
+  258  git push -u origin master
+  259  ssh-keygen
+  260  cd
+  261  pwd
+  262  cd ,
+  263  cd .ssh/
+  264  cat id_rsa.pub 
+  265  cd -
+  266  cd Desktop/
+  267  ls
+  268  cd remove-file-from-commit/
+  269  git push -u origin master
+  270  history
+  271  git add *
+  272  git commit -m "commands"
+  273  git push -u origin master
+  274  mv README.md.txt README.md
+  275  git status
+  276  git add *
+  277  git commit -m "gg"
+  278  git push  
+  279  git push -u origin master
+  280  git add *
+  281  git commit -m "gg"
+  282  git push -u origin master
+  283  ls
+  284  clear
+  285  git clone https://github.com/jilu407/test-06-08-2020.git
+  286  cd test-06-08-2020/
+  287  ls
+  288  toch 1.txt
+  289  pwd
+  290  git status
+  291  git add *
+  292  git status
+  293  git status
+  294  git add *
+  295  git status
+  296  git commit -m "first commit"
+  297  git status
+  298  ls
+  299  git log
+  300  git reflog
+  301  git push -u origin master
+  302  git user.name
+  303  git push -u origin master
+  304  git branch
+  305  cat 1.txt 
+  306  git branch 
+  307  git branch dev
+  308  git branch
+  309  git checkout dev
+  310  cat 1.txt 
+  311  git status
+  312  git add *
+  313  git commit -m 2second commit "
+  314  git commit -m "second commit "
+  315  ls
+  316  git checkout master
+  317  ls
+  318  git checkout dev
+  319  git checkout -b jjjjj
+  320  ls
+  321  git add *
+  322  git commit -m "third2
+"
+  323  git push -u origin jjjjj
+  324  git checkout dev
+  325  ls
+  326  git status
+  327  git add *
+  328  git commit -m "ghkjkj"
+  329  git push -u orign dev
+  330  git push -u origin dev
+  331  git checkout jjjjjj
+  332  git branch
+  333  git checkout jjjjj
+  334  cat 2
+  335  cat 2.txt 
+  336  git add *
+  337  git commit -m "hjkklkjh"
+  338  git push -u origin jjjjj
+  339  git pull origin master
+  340  ls
+  341  cat 2.txt 
+  342  git checkout dev
+  343  git add *
+  344  git commit -m "ggghhh"
+  345  git push -u origin dev
+  346  git checkout jjjjj
+  347  git pull origin dev
+  348  git status
+  349  git add *
+  350  git commit -m "resolve conflict"
+  351  git push -u origin jjjjj
+  352  history
+  353  history >> git-commands.txt
