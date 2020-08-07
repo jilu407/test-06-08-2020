@@ -68,3 +68,122 @@
   351  git push -u origin jjjjj
   352  history
   353  history >> git-commands.txt
+  
+  
+  
+  
+  385  cd Desktop/vinay/
+  386  git clone git@github.com:jilu407/test007008.git
+  387  ls
+  388  cd test007008/
+  389  git status
+  390  git int
+  391  git init
+  392  git config
+  393  git remote -v
+  394  git remote set-url origin git@github.com:jilu407/test007008.git
+  395  git remote set-url git@github.com:jilu407/test007008.git
+  396  git remote add origin git@github.com:jilu407/test007008.git
+  397  git remote -v
+  398  git status
+  399  git status
+  400  git status
+  401  git add *
+  402  clear
+  403  git status
+  404  git reset HEAD
+  405  git reset
+  406  git status
+  407  git add .
+  408  clear
+  409  git status
+  410  git reset
+  411  git add A
+  412  git add ALL
+  413  git add --ALL
+  414  git add --A
+  415  git add -A
+  416  git status
+  417  git commit -m "jjjjj"
+  418  git push -u origin master
+  419  git pull master
+  420  git pull origin master
+  421  ls
+  422  git status
+  423  git push -u -f origin master
+  424  clear
+  425  git status
+  426  git log
+  427  git reflog
+  428  git log --one-line
+  429  git log --oneline
+  430  git reset --mixed 22cbccd
+  431  git status
+  432  git reset --soft HEAD~1
+  433  git reset --soft HEAD
+  434  git status
+  435  git reset --soft HEAD~0
+  436  git status
+  437  git reflog
+  438  git reset --soft HEAD@{3}
+  439  git reflog
+  440  git status
+  441  git status
+  442  git add *
+  443  git commit -m "fffff"
+  444  git log
+  445  git reflog
+  446  git reset --soft HEAD@{1}
+  447  git reflog
+  448  git status
+  449  git status
+  450  git add *
+  451  git commit -m "dsfsaa"
+  452  git push -u origin master
+  453  clear
+  454  git reflog
+  455  git reset --soft HEAD@{1}
+  456  git status
+  457  git reset
+  458  git status
+  459  git add index.js
+  460  git add index.css
+  461  git status
+  462  git commit -m "revert"
+  463  git push -u origin master
+  464  git push -u -f origin master
+  465  git reflog
+  466  git reset --mixed HEAD@{1}
+  467  git status
+  468  git reflog
+  469  git reset --hard HEAD@{1}
+  470  git reflog
+  471  git reset --hard e64b84b
+  472  git reflog
+  473  git status
+  474  git revert 22cbccd
+  475  git status
+  476  git log
+  477  git reflog
+  478  git push -u origin master
+  479  git status
+  480  clear
+  481  git status
+  482  git checkout -b new-01
+  483  git status
+  484  git add *
+  485  git status
+  486  git checkout -b nnnn
+  487  git status
+  488  git add *
+  489  git status
+  490  git stash save gggg
+  491  git status
+  492  git stash list
+  493  git stash show stash@{0}
+  494  git stash apply App.test.js      |   9 ++++
+  495   index.css        |  13 +++++
+  496   index.js         |  17 +++++++
+  497  git stash apply stash@{0}
+  498  git status
+
